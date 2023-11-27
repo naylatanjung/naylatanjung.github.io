@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap'); 
+body{
+    font-family:'Playfair Display', sans-serif;
+}
+
+/* navbar styles */
+/*.navbar .bg-dark{
+    background-color: #131313 !important; 
+    tidak digunakan lagi
+}*/
+
+.navbar .navbar-brand{
+    font-weight: 800;
+    color: white;
+}
+
+.navbar .nav-link{
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* hero styles */
+.hero .card-title{
+    margin-top: 150px;
+    font-size: 55px;
+}
+
+
+/* product styles */
+.product {
+    background-color: #e9d2b1;
+}
+
+.product .section-title{
+    font-weight: 700;
+    color: black;
+}
+
+.product .section-paragraf{
+    font-weight: 700;
+    color: white;
+}
+
+.product .card {
+    background-color: #fff;
+    color: black;
+}
+
+/*.product .card img {
+    border: 2px solid #e9d2b1
+    tidak digunakan lagi
+
+    
+}*/
+
+.product .card .card-title {
+    margin-top: 20px;
+    font-weight: 650;
+}
+
+.product .card .btn{
+    font-size:medium;
+    font-weight: 1000;
+    background-color: #e9d2b1;
+}
+
+
+/* Founder Styles */
+.founder {
+    background-image: url('assets2/founder.jpg');
+    background-size: cover;
+    height: 450px;
+}
+
+.founder img{
+    margin-top: 50px;
+    width: 130px;
+}
+
+.founder .blockquote {
+    font-weight: 500;
+}
+
+.founder .blockquote-footer {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #693c09;
+    font-weight: 600;
+}
