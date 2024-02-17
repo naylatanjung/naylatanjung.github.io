@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nayla Az Zahra</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#achievement">Achievement</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nayla Az Zahra</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#achievement" onclick="toggleMenu()">Achievement</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">Skill</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="Nayla Az Zahra Profile Picture"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nayla Az Zahra</h1>
+        <p class="section__text__p2">Undergraduate IT Student</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/nayla-az-zahra-16b574281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"/>
+          <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/naylatanjung'"/>
+          <img src="./assets/insta.png" alt="My Instagram profile" class="icon" onclick="location.href='https://instagram.com/naayzr'"/>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+              <h3>Certification</h3>
+              <p><b>Computer Hardware Basics</b> <br />Cisco Networking Academy</p>
+              <p><b>Introduction to Internet of Things</b> <br />Cisco Networking Academy</p>
+              <p><b>TOEFL</b> <br />Score: 547</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon"/>
+              <h3>Education</h3>
+              <p><b>Information Technology</b><br />Universitas Sumatera Utara<br />2023 - Present</p>
+              <p><b>Mathematics and Natural Science</b><br />SMAS Dharmawangsa Medan<br />2020 - 2023</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              My name is Nayla Az Zahra, an undergraduate Information Technology student at Universitas Sumatera Utara. I have experience as a public relation staff at DW Talk, as a business development staff at Belajar Ind, and as a secretary at Dharmawangsa English Club
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Public Relation Staff</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3 class="company">DW Talk</h3>
+                  <p class="year">2021 - 2023</p>
+                  <p>- Manage negotiations with media partners to determine terms of cooperation</p>
+                  <p>- Develop and disseminate press releases, official statements, and other materials to media partners</p> 
+                  <p>- Conduct active monitoring of public response and perception of the organization</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Business Development Staff</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3 class="company">Belajar Ind</h3>
+                  <p class="year">2021 - 2022</p>
+                  <p>- Increased public awareness of the organization's existence by 30%</p>
+                  <p>- Initiate tutoring programs and workshops as a new source of income for the organization</p>
+                  <p>- Maximize the organization's funding</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Secretary</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3 class="company">Dharmawangsa English Club</h3>
+                  <p class="year">2021 - 2022</p>
+                  <p>- Organize and schedule meetings and events</p>
+                  <p>- Recording organizational activities</p>
+                  <p>- Filing minutes and reports of organizational agendas</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#achievement'"/>
+    </section>
+    <section id="achievement">
+      <p class="section__text__p1">My Recent</p>
+      <h1 class="title">Achievement</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title achievement-title">Digital Poster Design</h2>
+            <h3 class="rank">2nd Runner Up</h3><br><p>Dharmawangsa Carnaval 2023</p><br>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title achievement-title">Digital Poster Design</h2>
+            <h3 class="rank">2nd Runner Up</h3><br><p>Dharmawangsa Carnaval 2022</p><br>
+          </div>
+          <div class="details-container color-container"> 
+            <h2 class="experience-sub-title achievement-title">Digital Poster Design</h2>
+            <h3 class="rank">The Champion</h3><br><p>GenRe Movement UMSU 2022</p><br>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title achievement-title"><br>English Speech</h2>
+            <h3 class="rank">The Champion</h3><br><p>UMSUFEST 2021</p><br>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title achievement-title">English Essay Writing</h2>
+            <h3 class="rank">The Champion</h3><br><p>VEC Anniversary 2020</p><br>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get to Know My</p>
+      <h1 id="skill" class="title">Skill</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+            <h3>HTML</h3>
+          </div>
+          <div class="details-container">
+            <img src="./assets/checkmark.png" alt="Education icon" class="icon"/>
+            <h3>CSS</h3>
+          </div>
+          <div class="details-container">
+            <img src="./assets/checkmark.png" alt="Education icon" class="icon"/>
+            <h3>C</h3>
+          </div>
+        </div>
+        <br><br><br><br><br>
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+          <p><a href="mailto:naylatanjung79@gmail.com">naylatanjung79@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+          <p><a href="https://www.linkedin.com/in/nayla-az-zahra-16b574281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Nayla Az Zahra</a></p>
+        </div>
+      </div>
+    </section>
+    <br><br><br><br><br>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#achievement">Achievement</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Nayla Az Zahra. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
